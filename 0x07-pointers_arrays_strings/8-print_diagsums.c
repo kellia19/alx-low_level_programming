@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagnosis - prints the sum of 2 diagonals
+ * print_diagsums - prints the sum of 2 diagonals
  * @a: integers in a mt=atrix
  * @size: size of a matrix
  */
-void print_diagnosis(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int b;
 	int sum1 = 0;
