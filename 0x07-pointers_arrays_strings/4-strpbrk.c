@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _strpbk - searches for any set of bytes
+ * _strpbrk - searches for any set of bytes
  * @s: pointer to the string
  * @accept: pointer to the string
  *
  * Return: pointer to s
  */
-char *_strpbk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int a, b;
 
