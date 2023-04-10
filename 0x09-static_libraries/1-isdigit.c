@@ -1,18 +1,11 @@
 #include "main.h"
-#include <stddef.h>
+
 /**
- * _strchr - Entry point
- * @s: input
- * @c: input
- * return: Always 0 (Success)
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
-char *_strchr(char *s, char c)
+int _isdigit(int c)
 {
-	int i = 0;
-	for(:s[i] >= '\0'; i++)
-	{
-		if(s[i] ==c)
-			return (&s[i]);
-	}
-	return (0);
+	return (c >= '0' && c <= '9');
 }
