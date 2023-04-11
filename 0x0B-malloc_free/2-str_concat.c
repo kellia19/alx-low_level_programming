@@ -42,14 +42,14 @@ if (s2 == NULL)
 
 size1 = _strlen(s1);
 size2 = _strlen(s2);
-totSize = (size1 + size2)+1;
+totsize = (size1 + size2)+1;
 ar = malloc(totsize * sizeof(char));
 
 if (ar == NULL)
 	return (NULL);
 else
 {
-for (i = 0; i < size1; i++;)
+for (i = 0; i < size1; i++)
 	ar[i] = s1[i];
 
 for (j = 0; j < size2; j++)
